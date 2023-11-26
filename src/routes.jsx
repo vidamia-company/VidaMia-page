@@ -1,10 +1,15 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+import { Home, Profile, SignIn, SignUp, About } from "@/pages";
 
 export const routes = [
   {
     name: "home",
     path: "/",
     element: <Home />,
+  },
+  {
+    name: "About Us",
+    path: "/about-us",
+    element: <About />,
   },
   {
     name: "profile",
