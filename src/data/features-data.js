@@ -1,28 +1,28 @@
 import {
-  ChatBubbleBottomCenterTextIcon,
+  ChatBubbleBottomCenterTextIcon,ArchiveBoxIcon,BookmarkIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
     color: "gray",
-    title: "Awarded Agency",
+    title: "Experiencia Reconocida",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "En vidaMia, hemos sido reconocidos por nuestra experiencia en el desarrollo de software a medida. Dividimos los detalles sobre nuestros proyectos en partes para ofrecerte soluciones efectivas y personalizadas.",
   },
   {
     color: "gray",
-    title: "Free Revisions",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Revisiones Gratuitas",
+    icon: ArchiveBoxIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Mantenemos a nuestros clientes comprometidos ofreciendo revisiones gratuitas. Nos preocupamos por tu satisfacción y trabajamos para perfeccionar cada detalle, porque sabemos que cada usuario cuenta.",
   },
   {
     color: "gray",
-    title: "Verified Company",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Empresa Verificada",
+    icon: BookmarkIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "En VidaMia, somos una empresa verificada que se enorgullece de la transparencia y la integridad. Nuestro compromiso es brindarte soluciones confiables y comprobadas que impulsarán el éxito de tu proyecto.",
   },
 ];
 

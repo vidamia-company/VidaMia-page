@@ -29,12 +29,15 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Your story starts with us.
+                ¡Bienvenido a VidaMia!
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+              En el mundo digital, cada empresa tiene una historia única. 
+              La nuestra comienza contigo. Somos apasionados por 
+              transformar ideas en soluciones a medida. En VidaMia, 
+              fusionamos la creatividad con la tecnología para crear 
+              software que no solo resuelve problemas, sino que impulsa el 
+              crecimiento.
               </Typography>
             </div>
           </div>
@@ -65,17 +68,15 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Experimenta la excelencia con Vidamia.
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+              ¡Explora nuevas fronteras con Vidamia, una empresa visionaria en el mundo del desarrollo de software! En nuestro viaje inicial, nos inspira la pasión por transformar desafíos en oportunidades, impulsados por la innovación y la creatividad. En Vidamia, no solo creamos líneas de código; tejemos historias digitales que dan vida a tus visiones empresariales.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                Nuestra filosofía radica en la búsqueda constante de soluciones elegantes para complejas problemáticas. Con un equipo diverso de mentes brillantes, abrazamos cada desafío como una oportunidad para aprender y crecer. En Vidamia, creemos en el poder de la colaboración y la flexibilidad, construyendo puentes entre la visión y la realidad con soluciones que trascienden lo convencional.
+
+
               </Typography>
               <Button variant="filled">read more</Button>
             </div>
@@ -85,7 +86,7 @@ export function Home() {
                   <img
                     alt="Card Image"
                     src="/img/teamwork.png"
-                    className="h-full w-full"
+                    className="h-full w-full object-cover"
                   />
                 </CardHeader>
                 <CardBody>
@@ -95,12 +96,10 @@ export function Home() {
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Top Notch Services
+                    VidaMia
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                  VidaMia: Creando contenido especial para personas extraordinarias. Creemos en la motivación y perseverancia para alcanzar tus metas. Ofrecemos soluciones tecnológicas avanzadas y contamos con una división de diseño que da vida a tus ideas con creatividad. Descubre un mundo de posibilidades donde innovación y diseño se encuentran para ofrecerte experiencias únicas. ¡Vive la vida con VidaMia! ✨
                   </Typography>
                 </CardBody>
               </Card>
@@ -110,10 +109,12 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle section="Our Team" heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+          
+      <PageTitle section="Nuestro Equipo" heading="Conoce a nuestros talentos">
+            Siguiendo la filosofía de Vidamia en el desarrollo de software,
+            nuestros expertos, liderados por Alejandra Pachon, director de
+            desarrollo, destacan en la creación de soluciones innovadoras y
+            eficientes.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -138,10 +139,8 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Co-Working" heading="Build something">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+          <PageTitle section="Co-Working" heading="Servicios de VidaMia">
+          Experimenta la excelencia con VidaMia. Sumérgete en nuestros destacados servicios diseñados para satisfacer tus necesidades únicas:
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (

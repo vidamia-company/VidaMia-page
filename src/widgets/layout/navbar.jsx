@@ -70,14 +70,14 @@ export function Navbar({ brandName, routes, action }) {
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
-          <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
+          {/* <a
+            href="https://wa.me/573228832089"
             target="_blank"
           >
-            <Button variant="text" size="sm" color="white" fullWidth>
-              pro version
+            <Button variant="gradient" size="sm" color="white" fullWidth>
+              Contactar
             </Button>
-          </a>
+          </a> */}
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
           })}
@@ -102,15 +102,15 @@ export function Navbar({ brandName, routes, action }) {
       >
         <div className="container mx-auto">
           {navList}
-          <a
+          {/* <a
             href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
             target="_blank"
             className="mb-2 block"
           >
-            <Button variant="text" size="sm" fullWidth>
-              pro version
+            <Button variant="gradient" size="sm" fullWidth>
+              Contactar
             </Button>
-          </a>
+          </a> */}
           {React.cloneElement(action, {
             className: "w-full block",
           })}
@@ -121,14 +121,11 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "VidaMia",
   action: (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-    >
+    <a href="https://api.whatsapp.com/send?phone=573228832089&text=%C2%A1Hola%20VidaMia!%20Estoy%20interesado(a)%20en%20conocer%20m%C3%A1s%20sobre%20sus%20servicios.%20%C2%BFPodr%C3%ADamos%20hablar%20sobre%20c%C3%B3mo%20VidaMia%20puede%20ayudar%20a%20mi%20empresa%2Fproyecto%3F%20%C2%A1Gracias!" target="_blank" rel="noopener noreferrer">
       <Button variant="gradient" size="sm" fullWidth>
-        free download
+      Contactar
       </Button>
     </a>
   ),
