@@ -23,6 +23,24 @@ export const contactData = [
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
+  {
+    title: "Launch Time",
+    icon: PlayIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "Launch Time",
+    icon: PlayIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
+  {
+    title: "Launch Time",
+    icon: PlayIcon,
+    description:
+      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  },
 ];
 
 export default contactData;
