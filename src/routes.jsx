@@ -11,11 +11,11 @@ export const routes = [
     path: "/about-us",
     element: <About />,
   },
-  {
+/*   {
     name: "profile",
     path: "/profile",
     element: <Profile />,
-  },
+  }, */
   {
     name: "Sign In",
     path: "/sign-in",
