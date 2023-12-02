@@ -21,7 +21,7 @@ export const teamData = [
   {
     img: "/img/team-2.jpg",
     name: "Alejandra Pachon",
-    position: "Founder and CEO",
+    position: "publicist and designer",
     socials: [
       {
         color: "light-blue",
