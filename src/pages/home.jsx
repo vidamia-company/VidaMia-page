@@ -10,7 +10,7 @@ import {
   Textarea,
   Checkbox,
 } from "@material-tailwind/react";
-import { FingerPrintIcon, UsersIcon } from "@heroicons/react/24/solid";
+import { FingerPrintIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
@@ -181,10 +181,7 @@ export function Home() {
         className="flex items-center font-normal"
       >
         Acepto los
-        <a
-          href="#"
-          className="font-medium transition-colors hover:text-gray-900 ml-1"
-        >
+        <a href="#" className="font-medium transition-colors hover:text-gray-900 ml-1">
           Términos y Condiciones
         </a>
       </Typography>
@@ -198,7 +195,7 @@ export function Home() {
 
         </div>
       </section>
-      <div className="bg-white">
+      <div className="bg-wcursorhite">
         <Footer />
       </div>
     </>
