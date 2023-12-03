@@ -19,6 +19,9 @@ import { useNavigate } from "react-router-dom";
 export function Home() {
   const navigate = useNavigate();
 
+  const asunto = "Asunto Dinámico";
+  const cuerpoMensaje = "Cuerpo del Mensaje Dinámico";
+
   const handleNavigate = () => {
     navigate("/about-us");
   };
@@ -40,9 +43,9 @@ export function Home() {
               <Typography variant="lead" color="white" className="opacity-80">
                 En el mundo digital, cada empresa tiene una historia única. La
                 nuestra comienza contigo. Somos apasionados por transformar
-                ideas en soluciones a medida. En VidaMia, fusionamos la
-                creatividad con la tecnología para crear software que no solo
-                resuelve problemas, sino que impulsa el crecimiento.
+                ideas en soluciones a medida. En <b>VidaMia</b>, fusionamos la
+                creatividad con la tecnología para crear <b>software</b> que no
+                solo resuelve problemas, sino que impulsa el crecimiento.
               </Typography>
             </div>
           </div>
@@ -205,7 +208,15 @@ export function Home() {
             Completa este formulario y nos pondremos en contacto contigo en 24
             horas.
           </PageTitle>
-          <form className="mx-auto mt-12 w-full max-w-2xl">
+
+          <form
+            className="mx-auto mt-12 w-full max-w-2xl"
+            action={`mailto:vidastylecompany@gmail.com?subject=${encodeURIComponent(
+              asunto,
+            )}&body=${encodeURIComponent(cuerpoMensaje)}`}
+            method="post"
+            encType="text/plain"
+          >
             <div className="mb-8 flex flex-col gap-8 lg:flex-row">
               <Input
                 variant="outlined"
@@ -245,7 +256,13 @@ export function Home() {
               }
               containerProps={{ className: "-ml-2.5" }}
             />
-            <Button variant="gradient" size="lg" className="mt-8" fullWidth>
+            <Button
+              type="submit"
+              variant="gradient"
+              size="lg"
+              className="mt-8"
+              fullWidth
+            >
               Enviar Mensaje
             </Button>
           </form>

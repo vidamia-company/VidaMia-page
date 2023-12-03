@@ -1,5 +1,7 @@
 import {
-  ChatBubbleBottomCenterTextIcon,ArchiveBoxIcon,BookmarkIcon
+  ChatBubbleBottomCenterTextIcon,
+  CheckCircleIcon,
+  PencilIcon,
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
@@ -13,14 +15,14 @@ export const featuresData = [
   {
     color: "gray",
     title: "Revisiones Gratuitas",
-    icon: ArchiveBoxIcon,
+    icon: PencilIcon,
     description:
       "Mantenemos a nuestros clientes comprometidos ofreciendo revisiones gratuitas. Nos preocupamos por tu satisfacción y trabajamos para perfeccionar cada detalle, porque sabemos que cada usuario cuenta.",
   },
   {
     color: "gray",
     title: "Empresa Verificada",
-    icon: BookmarkIcon,
+    icon: CheckCircleIcon,
     description:
       "En VidaMia, somos una empresa verificada que se enorgullece de la transparencia y la integridad. Nuestro compromiso es brindarte soluciones confiables y comprobadas que impulsarán el éxito de tu proyecto.",
   },
