@@ -7,10 +7,12 @@ export const teamData = [
       {
         color: "light-blue",
         name: "twitter",
+        link: "",
       },
       {
         color: "blue",
         name: "linkedin",
+        link: "https://google.com",
       },
       {
         color: "pink",

@@ -147,10 +147,12 @@ export function Home() {
                 position={position}
                 socials={
                   <div className="flex items-center gap-2">
-                    {socials.map(({ color, name }) => (
-                      <IconButton key={name} color={color} variant="text">
-                        <i className={`fa-brands text-xl fa-${name}`} />
-                      </IconButton>
+                    {socials.map(({ color, name, link }) => (
+                      <a href={link} key={name}>
+                        <IconButton color={color} variant="text">
+                          <i className={`fa-brands text-xl fa-${name}`} />
+                        </IconButton>
+                      </a>
                     ))}
                   </div>
                 }
