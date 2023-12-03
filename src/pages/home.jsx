@@ -224,7 +224,7 @@ export function Home() {
                   color="gray"
                   className="flex items-center font-normal"
                 >
-                  Acepto los
+                  Acepto los{" "}
                   <a
                     href="#"
                     className="ml-1 font-medium transition-colors hover:text-gray-900"
