@@ -67,13 +67,13 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Experimenta la excelencia con Vidamia.
+                Experimenta la excelencia con VidaMia.
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                ¡Explora nuevas fronteras con Vidamia, una empresa visionaria en
+                ¡Explora nuevas fronteras con VidaMia, una empresa visionaria en
                 el mundo del desarrollo de software! En nuestro viaje inicial,
                 nos inspira la pasión por transformar desafíos en oportunidades,
-                impulsados por la innovación y la creatividad. En Vidamia, no
+                impulsados por la innovación y la creatividad. En VidaMia, no
                 solo creamos líneas de código; tejemos historias digitales que
                 dan vida a tus visiones empresariales.
                 <br />
@@ -81,7 +81,7 @@ export function Home() {
                 Nuestra filosofía radica en la búsqueda constante de soluciones
                 elegantes para complejas problemáticas. Con un equipo diverso de
                 mentes brillantes, abrazamos cada desafío como una oportunidad
-                para aprender y crecer. En Vidamia, creemos en el poder de la
+                para aprender y crecer. En VidaMia, creemos en el poder de la
                 colaboración y la flexibilidad, construyendo puentes entre la
                 visión y la realidad con soluciones que trascienden lo
                 convencional.
@@ -133,7 +133,7 @@ export function Home() {
             section="Nuestro Equipo"
             heading="Conoce a nuestros talentos"
           >
-            Siguiendo la filosofía de Vidamia en el desarrollo de software,
+            Siguiendo la filosofía de VidaMia en el desarrollo de software,
             nuestros expertos, liderados por Alejandra Pachon, director de
             desarrollo, destacan en la creación de soluciones innovadoras y
             eficientes.
@@ -148,7 +148,7 @@ export function Home() {
                 socials={
                   <div className="flex items-center gap-2">
                     {socials.map(({ color, name, link }) => (
-                      <a href={link} key={name}>
+                      <a href={link} key={name} target="_blank">
                         <IconButton color={color} variant="text">
                           <i className={`fa-brands text-xl fa-${name}`} />
                         </IconButton>

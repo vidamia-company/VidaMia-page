@@ -5,18 +5,14 @@ export const teamData = [
     position: "Scrum Master",
     socials: [
       {
-        color: "light-blue",
-        name: "twitter",
-        link: "",
+        color: "black",
+        name: "github",
+        link: "https://github.com/holk26/",
       },
       {
         color: "blue",
         name: "linkedin",
-        link: "https://google.com",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        link: "https://www.linkedin.com/in/homero-cabrera-desarrollador/",
       },
     ],
   },
@@ -27,15 +23,13 @@ export const teamData = [
     socials: [
       {
         color: "light-blue",
-        name: "twitter",
+        name: "behance",
+        link: "https://www.behance.net/aleepachon",
       },
       {
         color: "blue",
         name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        link: "https://www.linkedin.com/in/alejandra-pachon-garzon-marketing/",
       },
     ],
   },
@@ -51,10 +45,7 @@ export const teamData = [
       {
         color: "blue",
         name: "linkedin",
-      },
-      {
-        color: "pink",
-        name: "dribbble",
+        link: "https://www.linkedin.com/in/dgguzmangr/",
       },
     ],
   },
