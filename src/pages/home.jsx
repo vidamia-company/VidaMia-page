@@ -18,7 +18,7 @@ import { featuresData, teamData, contactData } from "@/data";
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
+      <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
         <div className="absolute top-0 h-full w-full bg-[url('/img/background-3.png')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
@@ -32,12 +32,11 @@ export function Home() {
                 ¡Bienvenido a VidaMia!
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-              En el mundo digital, cada empresa tiene una historia única. 
-              La nuestra comienza contigo. Somos apasionados por 
-              transformar ideas en soluciones a medida. En VidaMia, 
-              fusionamos la creatividad con la tecnología para crear 
-              software que no solo resuelve problemas, sino que impulsa el 
-              crecimiento.
+                En el mundo digital, cada empresa tiene una historia única. La
+                nuestra comienza contigo. Somos apasionados por transformar
+                ideas en soluciones a medida. En VidaMia, fusionamos la
+                creatividad con la tecnología para crear software que no solo
+                resuelve problemas, sino que impulsa el crecimiento.
               </Typography>
             </div>
           </div>
@@ -71,17 +70,26 @@ export function Home() {
                 Experimenta la excelencia con Vidamia.
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-              ¡Explora nuevas fronteras con Vidamia, una empresa visionaria en el mundo del desarrollo de software! En nuestro viaje inicial, nos inspira la pasión por transformar desafíos en oportunidades, impulsados por la innovación y la creatividad. En Vidamia, no solo creamos líneas de código; tejemos historias digitales que dan vida a tus visiones empresariales.
+                ¡Explora nuevas fronteras con Vidamia, una empresa visionaria en
+                el mundo del desarrollo de software! En nuestro viaje inicial,
+                nos inspira la pasión por transformar desafíos en oportunidades,
+                impulsados por la innovación y la creatividad. En Vidamia, no
+                solo creamos líneas de código; tejemos historias digitales que
+                dan vida a tus visiones empresariales.
                 <br />
                 <br />
-                Nuestra filosofía radica en la búsqueda constante de soluciones elegantes para complejas problemáticas. Con un equipo diverso de mentes brillantes, abrazamos cada desafío como una oportunidad para aprender y crecer. En Vidamia, creemos en el poder de la colaboración y la flexibilidad, construyendo puentes entre la visión y la realidad con soluciones que trascienden lo convencional.
-
-
+                Nuestra filosofía radica en la búsqueda constante de soluciones
+                elegantes para complejas problemáticas. Con un equipo diverso de
+                mentes brillantes, abrazamos cada desafío como una oportunidad
+                para aprender y crecer. En Vidamia, creemos en el poder de la
+                colaboración y la flexibilidad, construyendo puentes entre la
+                visión y la realidad con soluciones que trascienden lo
+                convencional.
               </Typography>
               <Button variant="filled">read more</Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
-              <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
+              <Card className="rounded-lg border shadow-lg shadow-gray-500/10">
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
@@ -90,7 +98,13 @@ export function Home() {
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">Enterprise</Typography>
+                  <Typography
+                    variant="small"
+                    color="blue-gray"
+                    className="font-normal"
+                  >
+                    Enterprise
+                  </Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
@@ -99,7 +113,13 @@ export function Home() {
                     VidaMia
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                  VidaMia: Creando contenido especial para personas extraordinarias. Creemos en la motivación y perseverancia para alcanzar tus metas. Ofrecemos soluciones tecnológicas avanzadas y contamos con una división de diseño que da vida a tus ideas con creatividad. Descubre un mundo de posibilidades donde innovación y diseño se encuentran para ofrecerte experiencias únicas. ¡Vive la vida con VidaMia! ✨
+                    VidaMia: Creando contenido especial para personas
+                    extraordinarias. Creemos en la motivación y perseverancia
+                    para alcanzar tus metas. Ofrecemos soluciones tecnológicas
+                    avanzadas y contamos con una división de diseño que da vida
+                    a tus ideas con creatividad. Descubre un mundo de
+                    posibilidades donde innovación y diseño se encuentran para
+                    ofrecerte experiencias únicas. ¡Vive la vida con VidaMia! ✨
                   </Typography>
                 </CardBody>
               </Card>
@@ -107,10 +127,12 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="px-4 pt-20 pb-48">
+      <section className="px-4 pb-48 pt-20">
         <div className="container mx-auto">
-          
-      <PageTitle section="Nuestro Equipo" heading="Conoce a nuestros talentos">
+          <PageTitle
+            section="Nuestro Equipo"
+            heading="Conoce a nuestros talentos"
+          >
             Siguiendo la filosofía de Vidamia en el desarrollo de software,
             nuestros expertos, liderados por Alejandra Pachon, director de
             desarrollo, destacan en la creación de soluciones innovadoras y
@@ -137,12 +159,14 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="relative bg-white py-24 px-4">
+      <section className="relative bg-white px-4 py-24">
         <div className="container mx-auto">
           <PageTitle section="VidaMia" heading="Servicios">
-          Experimenta la excelencia con VidaMia. Sumérgete en nuestros destacados servicios diseñados para satisfacer tus necesidades únicas:
+            Experimenta la excelencia con VidaMia. Sumérgete en nuestros
+            destacados servicios diseñados para satisfacer tus necesidades
+            únicas:
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mb-48 mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}
@@ -164,35 +188,57 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle section="Contáctanos" heading="¿Quieres trabajar con nosotros?">
-          Completa este formulario y nos pondremos en contacto contigo en 24 horas.
+          <PageTitle
+            section="Contáctanos"
+            heading="¿Quieres trabajar con nosotros?"
+          >
+            Completa este formulario y nos pondremos en contacto contigo en 24
+            horas.
           </PageTitle>
-          <form className="mx-auto w-full max-w-2xl mt-12">
-  <div className="mb-8 flex flex-col lg:flex-row gap-8">
-    <Input variant="outlined" size="lg" label="Nombre completo" className="flex-1" />
-    <Input variant="outlined" size="lg" label="Direccion de correo" className="flex-1" />
-  </div>
-  <Textarea variant="outlined" size="lg" label="Mensaje" rows={8} className="w-full" />
-  <Checkbox
-    label={
-      <Typography
-        variant="small"
-        color="gray"
-        className="flex items-center font-normal"
-      >
-        Acepto los
-        <a href="#" className="font-medium transition-colors hover:text-gray-900 ml-1">
-          Términos y Condiciones
-        </a>
-      </Typography>
-    }
-    containerProps={{ className: "-ml-2.5" }}
-  />
-  <Button variant="gradient" size="lg" className="mt-8" fullWidth>
-    Enviar Mensaje
-  </Button>
-</form>
-
+          <form className="mx-auto mt-12 w-full max-w-2xl">
+            <div className="mb-8 flex flex-col gap-8 lg:flex-row">
+              <Input
+                variant="outlined"
+                size="lg"
+                label="Nombre completo"
+                className="flex-1"
+              />
+              <Input
+                variant="outlined"
+                size="lg"
+                label="Direccion de correo"
+                className="flex-1"
+              />
+            </div>
+            <Textarea
+              variant="outlined"
+              size="lg"
+              label="Mensaje"
+              rows={8}
+              className="w-full"
+            />
+            <Checkbox
+              label={
+                <Typography
+                  variant="small"
+                  color="gray"
+                  className="flex items-center font-normal"
+                >
+                  Acepto los
+                  <a
+                    href="#"
+                    className="ml-1 font-medium transition-colors hover:text-gray-900"
+                  >
+                    Términos y Condiciones
+                  </a>
+                </Typography>
+              }
+              containerProps={{ className: "-ml-2.5" }}
+            />
+            <Button variant="gradient" size="lg" className="mt-8" fullWidth>
+              Enviar Mensaje
+            </Button>
+          </form>
         </div>
       </section>
       <div className="bg-wcursorhite">
