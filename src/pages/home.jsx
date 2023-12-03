@@ -14,8 +14,14 @@ import { FingerPrintIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
+import { useNavigate } from "react-router-dom";
 
 export function Home() {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/about-us");
+  };
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pb-32 pt-16">
@@ -86,7 +92,9 @@ export function Home() {
                 visión y la realidad con soluciones que trascienden lo
                 convencional.
               </Typography>
-              <Button variant="filled">read more</Button>
+              <Button variant="filled" onClick={handleNavigate}>
+                read more
+              </Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="rounded-lg border shadow-lg shadow-gray-500/10">
@@ -134,7 +142,7 @@ export function Home() {
             heading="Conoce a nuestros talentos"
           >
             Siguiendo la filosofía de VidaMia en el desarrollo de software,
-            nuestros expertos, liderados por Alejandra Pachon, director de
+            nuestros expertos, liderados por Alejandra Pachón, directora de
             desarrollo, destacan en la creación de soluciones innovadoras y
             eficientes.
           </PageTitle>
