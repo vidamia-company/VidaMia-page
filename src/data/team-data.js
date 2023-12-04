@@ -5,7 +5,7 @@ export const teamData = [
     position: "Scrum Master",
     socials: [
       {
-        color: "black",
+        color: "gray",
         name: "github",
         link: "https://github.com/holk26/",
       },
