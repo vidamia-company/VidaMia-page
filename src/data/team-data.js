@@ -68,6 +68,40 @@ export const teamData = [
       },
     ],
   },
+  {
+    img: "/img/team-8.png",
+    name: "Andres Felipe Lopez",
+    position: "Front End Developer",
+    socials: [
+      {
+        color: "gray",
+        name: "github",
+        link: "https://github.com/abic26/",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+        link: "https://co.linkedin.com/in/andres-felipe-lopez-a18754275",
+      },
+    ],
+  },
+  {
+    img: "/img/team-8.png",
+    name: "Daniel Cardenas",
+    position: "Front End Developer",
+    socials: [
+      {
+        color: "gray",
+        name: "github",
+        link: "https://github.com/felipe082002/",
+      },
+      {
+        color: "blue",
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/daniel-cardenas-garcia-604409212",
+      },
+    ],
+  },
 ];
 
 export default teamData;
