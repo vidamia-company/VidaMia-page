@@ -86,7 +86,7 @@ export const teamData = [
     ],
   },
   {
-    img: "/img/daniel.jpg",
+    img: "/img/daniel-lite.jpg",
     name: "Daniel Cardenas",
     position: "BackEnd Developer",
     socials: [
