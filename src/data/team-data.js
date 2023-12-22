@@ -71,7 +71,7 @@ export const teamData = [
   {
     img: "/img/team-8.png",
     name: "Andres Felipe Lopez",
-    position: "Front End Developer",
+    position: "FrontEnd Developer",
     socials: [
       {
         color: "gray",
@@ -88,7 +88,7 @@ export const teamData = [
   {
     img: "/img/team-8.png",
     name: "Daniel Cardenas",
-    position: "Front End Developer",
+    position: "BackEnd Developer",
     socials: [
       {
         color: "gray",
