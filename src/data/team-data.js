@@ -69,7 +69,7 @@ export const teamData = [
     ],
   },
   {
-    img: "/img/team-8.png",
+    img: "/img/team-andres.png",
     name: "Andres Felipe Lopez",
     position: "FrontEnd Developer",
     socials: [
